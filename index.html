@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Belle Table — Restaurant Gastronomique</title>
+<meta name="description" content="La Belle Table, restaurant gastronomique au cœur de la ville. Cuisine française revisitée, produits frais et locaux.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="container header-inner">
+    <a href="#accueil" class="logo">La Belle Table</a>
+    <nav class="nav" id="nav">
+      <a href="#accueil">Accueil</a>
+      <a href="#menu">Menu</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#apropos">À propos</a>
+      <a href="#avis">Avis</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="hero" id="accueil">
+  <div class="hero-overlay"></div>
+  <div class="hero-content container">
+    <p class="eyebrow">Depuis 2014 · Genève</p>
+    <h1>Une table où chaque plat<br>raconte une histoire</h1>
+    <p class="hero-text">Cuisine française revisitée avec des produits frais, locaux et de saison, dans un cadre chaleureux au cœur de la ville.</p>
+    <div class="hero-buttons">
+      <a href="#contact" class="btn btn-primary">Réserver une table</a>
+      <a href="#menu" class="btn btn-outline">Voir le menu</a>
+    </div>
+  </div>
+  <a href="#menu" class="scroll-hint" aria-label="Défiler vers le bas">↓</a>
+</section>
+
+<section class="strip">
+  <div class="container strip-inner">
+    <div class="strip-item">
+      <span class="strip-number">10+</span>
+      <span class="strip-label">années d'expérience</span>
+    </div>
+    <div class="strip-item">
+      <span class="strip-number">4.8/5</span>
+      <span class="strip-label">note moyenne clients</span>
+    </div>
+    <div class="strip-item">
+      <span class="strip-number">100%</span>
+      <span class="strip-label">produits locaux</span>
+    </div>
+    <div class="strip-item">
+      <span class="strip-number">6j/7</span>
+      <span class="strip-label">ouvert midi et soir</span>
+    </div>
+  </div>
+</section>
+
+<section class="menu" id="menu">
+  <div class="container">
+    <p class="section-eyebrow">Notre carte</p>
+    <h2 class="section-title">Le Menu</h2>
+    <p class="section-subtitle">Une cuisine de saison, pensée et préparée chaque jour par notre équipe en cuisine.</p>
+
+    <div class="menu-grid">
+      <div class="menu-col">
+        <h3 class="menu-col-title">Entrées</h3>
+        <div class="menu-item">
+          <div class="menu-item-head">
+            <span class="menu-item-name">Velouté de courge butternut</span>
+            <span class="menu-item-price">14 CHF</span>
+          </div>
+          <p class="menu-item-desc">Noisettes torréfiées, huile de truffe, crème fouettée légère</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-head">
+            <span class="menu-item-name">Tartare de saumon</span>
+            <span class="menu-item-price">18 CHF</span>
+          </div>
+          <p class="menu-item-desc">Avocat, agrumes, coriandre fraîche, chips de riz soufflé</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-head">
+            <span class="menu-item-name">Burrata crémeuse</span>
+            <span class="menu-item-price">16 CHF</span>
+          </div>
+          <p class="menu-item-desc">Tomates anciennes, basilic, pesto maison, pain grillé</p>
+        </div>
+      </div>
+
+      <div class="menu-col">
+        <h3 class="menu-col-title">Plats</h3>
+        <div class="menu-item">
+          <div class="menu-item-head">
+            <span class="menu-item-name">Filet de bœuf Rossini</span>
+            <span class="menu-item-price">42 CHF</span>
+          </div>
+          <p class="menu-item-desc">Foie gras poêlé, sauce au porto, pommes fondantes</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-head">
+            <span class="menu-item-name">Risotto aux champignons</span>
+            <span class="menu-item-price">28 CHF</span>
+          </div>
+          <p class="menu-item-desc">Cèpes, parmesan 24 mois, huile de noisette</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-head">
+            <span class="menu-item-name">Bar rôti entier</span>
+            <span class="menu-item-price">36 CHF</span>
+          </div>
+          <p class="menu-item-desc">Fenouil confit, beurre blanc citronné, légumes de saison</p>
+        </div>
+      </div>
+
+      <div class="menu-col">
+        <h3 class="menu-col-title">Desserts</h3>
+        <div class="menu-item">
+          <div class="menu-item-head">
+            <span class="menu-item-name">Fondant au chocolat</span>
+            <span class="menu-item-price">12 CHF</span>
+          </div>
+          <p class="menu-item-desc">Cœur coulant, glace vanille bourbon, tuile croustillante</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-head">
+            <span class="menu-item-name">Tarte au citron meringuée</span>
+            <span class="menu-item-price">11 CHF</span>
+          </div>
+          <p class="menu-item-desc">Citrons de Menton, meringue italienne flambée</p>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-head">
+            <span class="menu-item-name">Crème brûlée à la vanille</span>
+            <span class="menu-item-price">10 CHF</span>
+          </div>
+          <p class="menu-item-desc">Gousse de vanille Bourbon, caramel craquant</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="gallery" id="galerie">
+  <div class="container">
+    <p class="section-eyebrow">Ambiance</p>
+    <h2 class="section-title">Galerie</h2>
+    <p class="section-subtitle">Un aperçu de notre salle, de notre cuisine et de nos créations.</p>
+  </div>
+  <div class="gallery-grid">
+    <div class="gallery-item gallery-item--tall">
+      <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80" alt="Salle du restaurant avec éclairage chaleureux" loading="lazy">
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80" alt="Plat gastronomique dressé" loading="lazy">
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=800&q=80" alt="Table dressée pour le service" loading="lazy">
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&q=80" alt="Chef en cuisine préparant un plat" loading="lazy">
+    </div>
+    <div class="gallery-item gallery-item--tall">
+      <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=800&q=80" alt="Dessert gastronomique" loading="lazy">
+    </div>
+    <div class="gallery-item">
+      <img src="https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?w=800&q=80" alt="Verre de vin sur table de restaurant" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="about" id="apropos">
+  <div class="container about-inner">
+    <div class="about-image">
+      <img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?w=700&q=80" alt="Le chef de La Belle Table" loading="lazy">
+    </div>
+    <div class="about-text">
+      <p class="section-eyebrow">Notre histoire</p>
+      <h2 class="section-title">Une passion transmise depuis 2014</h2>
+      <p>Fondé par le Chef Antoine Dubois, La Belle Table est né d'une envie simple : proposer une cuisine française généreuse et sincère, où chaque assiette respecte le produit et la saison.</p>
+      <p>Notre équipe travaille chaque matin avec des producteurs locaux pour composer une carte qui évolue au fil de l'année, entre tradition et créativité.</p>
+      <ul class="about-list">
+        <li>Produits frais sélectionnés chaque jour</li>
+        <li>Carte des vins régionale et internationale</li>
+        <li>Salle privatisable pour vos événements</li>
+        <li>Terrasse ombragée aux beaux jours</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="reviews" id="avis">
+  <div class="container">
+    <p class="section-eyebrow">Témoignages</p>
+    <h2 class="section-title">Ce que disent nos clients</h2>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p class="review-text">"Un service impeccable et des plats d'une finesse remarquable. Le filet Rossini est à tomber."</p>
+        <p class="review-author">— Camille R.</p>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p class="review-text">"Cadre magnifique, personnel très accueillant. Nous reviendrons sans hésiter pour notre anniversaire."</p>
+        <p class="review-author">— Marc & Élodie</p>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★☆</div>
+        <p class="review-text">"Excellente adresse pour un repas d'affaires. Le risotto aux champignons était délicieux."</p>
+        <p class="review-author">— Julien P.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="container contact-inner">
+    <div class="contact-info">
+      <p class="section-eyebrow">Réservation</p>
+      <h2 class="section-title">Venez nous rendre visite</h2>
+      <p class="contact-item"><strong>Adresse</strong><br>12 Rue du Rhône, 1204 Genève</p>
+      <p class="contact-item"><strong>Téléphone</strong><br>+41 22 123 45 67</p>
+      <p class="contact-item"><strong>Horaires</strong><br>Mar–Dim : 12h–14h30 / 19h–22h30<br>Fermé le lundi</p>
+      <div class="social">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Facebook">Facebook</a>
+      </div>
+    </div>
+    <form class="contact-form" id="contactForm">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Nom</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="guests">Nombre de personnes</label>
+          <input type="number" id="guests" name="guests" min="1" max="20" required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="date">Date souhaitée</label>
+          <input type="date" id="date" name="date" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Téléphone</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="message">Message (optionnel)</label>
+        <textarea id="message" name="message" rows="3"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary btn-full">Demander une réservation</button>
+      <p class="form-note" id="formNote"></p>
+    </form>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>© 2026 La Belle Table. Tous droits réservés.</p>
+    <p class="footer-note">Site réalisé avec Claude — projet de démonstration.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
